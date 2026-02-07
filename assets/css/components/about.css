@@ -1,0 +1,13 @@
+.about {
+  background-color: var(--container-color);
+}
+
+.about.section {
+  padding-bottom: 88px;
+}
+.about .container {
+  display: flex;
+  gap: 88px;
+}
+.about__content {
+}

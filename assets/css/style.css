@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("../css/components/navbar.css");
+@import url("../css/components/main.css");
+@import url("../css/components/about.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  outline: none;
+  /* background-color: ; */
+  font-family: "Exo", sans-serif;
+  cursor: pointer;
+  border: none;
+}
+/* css variables */
+:root {
+  --first-color: #4177dc;
+  --first-color-alt: #306ad9;
+  --first-color-light: #608ce2;
+  --first-color-lighten: #93b1eb;
+  /* text-colors */
+  --title-color: #f1f2f3;
+  --text-color: #babec4;
+  --text-color-white: #ffff;
+  --text-color-light: #888b91;
+  /* container color */
+  --container-color: #0a0a0b;
+  --body-color: #111213;
+  /* shape-color */
+  --shape-color: #374a6d;
+  /* fonts sizes */
+  --font-h1: 2.25rem; /* 36px */
+  --font-h2: 1.5rem; /* 24px */
+  --font-h3: 1.25rem; /* 20px */
+  --font-h4: 1rem; /* 16px */
+  --font-small: 0.875rem; /* 14px */
+  --font-smaller: 0.813rem; /* 13px */
+  /* transition */
+  --transition: 0.3s;
+}
+@media screen and(max-width:1024px) {
+  :root {
+    --font-h1: 1.5rem; /* 24px */
+    --font-h2: 1.25rem; /* 20px */
+    --font-h3: 1rem; /* 16px */
+    --font-h4: 0.938rem; /* 15px */
+    --font-small: 0.813rem; /* 13px */
+    --font-smaller: 0.75rem; /* 12px */
+  }
+}
+body {
+  background-color: var(--container-color);
+  font-family: "Exo", sans-serif;
+}
+.container {
+  max-width: 1152px;
+  margin-inline: auto;
+}
+.section {
+  padding-top: 72px;
+}
+.shape {
+  border-radius: 50%;
+  background-color: var(--shape-color);
+  filter: blur(180px);
+  opacity: 1;
+  position: absolute;
+}
+.big {
+  width: 500px;
+  height: 500px;
+}
+.small {
+  width: 400px;
+  height: 400px;
+}
