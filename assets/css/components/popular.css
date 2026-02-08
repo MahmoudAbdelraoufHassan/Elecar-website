@@ -1,0 +1,10 @@
+.popular {
+  background-color: var(--container-color);
+}
+.popular.section {
+  padding-bottom: 48px;
+}
+.popular .container {
+  padding-left: 84px;
+  padding-right: 84px;
+}

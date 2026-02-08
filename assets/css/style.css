@@ -2,6 +2,8 @@
 @import url("../css/components/navbar.css");
 @import url("../css/components/main.css");
 @import url("../css/components/about.css");
+@import url("../css/components/popular.css");
+@import url("../css/components/carCard.css");
 * {
   padding: 0;
   margin: 0;
@@ -35,7 +37,7 @@ button {
   --container-color: #0a0a0b;
   --body-color: #111213;
   /* shape-color */
-  --shape-color: #374a6d;
+  --shape-color: rgb(55, 74, 109);
   /* fonts sizes */
   --font-h1: 2.25rem; /* 36px */
   --font-h2: 1.5rem; /* 24px */
@@ -67,12 +69,26 @@ body {
 .section {
   padding-top: 72px;
 }
+.section__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.section__title h2 {
+  text-align: center;
+  color: var(--text-color-white);
+  line-height: 1.6;
+  max-width: 278px;
+  font-size: var(--font-h2);
+}
 .shape {
   border-radius: 50%;
   background-color: var(--shape-color);
   filter: blur(180px);
   opacity: 1;
   position: absolute;
+  z-index: 10;
 }
 .big {
   width: 500px;
@@ -81,4 +97,28 @@ body {
 .small {
   width: 400px;
   height: 400px;
+}
+
+.glide__bullet {
+  width: 10px;
+  height: 10px;
+  background: #babec442;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.glide__bullet--active {
+  background: var(--first-color);
+}
+.glide__slides {
+  align-items: start;
+}
+
+.bullets {
+  display: flex;
+  justify-content: center;
+  margin-top: 49px;
 }

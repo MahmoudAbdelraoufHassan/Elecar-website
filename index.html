@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elecar</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+
+    <!-- JS -->
   </head>
   <body>
     <header class="header">
@@ -74,6 +81,10 @@
       <div class="container">
         <div class="about__image">
           <img src="assets/images/about.png" alt="about" />
+          <div class="img__desc">
+            <h3>2.500+</h3>
+            <p>Supercharges placed along popular routes</p>
+          </div>
         </div>
         <div class="about__content">
           <h2>Machines With Future Technology</h2>
@@ -86,5 +97,27 @@
         </div>
       </div>
     </section>
+    <section class="popular section">
+      <div class="section__title">
+        <h2>Choose Your Electric Car Of The Porsche Brand</h2>
+      </div>
+      <div class="container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides"></ul>
+          </div>
+          <div class="bullets">
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

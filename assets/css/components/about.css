@@ -8,6 +8,53 @@
 .about .container {
   display: flex;
   gap: 88px;
+  padding: 0px 28px;
 }
-.about__content {
+.about__content h2 {
+  color: var(--text-color-white);
+  margin-bottom: 24px;
+  font-size: var(--font-h2);
+}
+
+.about__content p {
+  color: var(--text-color);
+  font-size: var(--font-h4);
+  margin-bottom: 48px;
+  line-height: 1.6;
+  max-width: 408px;
+}
+.about__content button {
+  background-color: var(--first-color);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 4px;
+}
+.about__image {
+  position: relative;
+}
+.about__image img {
+  width: 100%;
+}
+.about__image .img__desc {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  bottom: -50px;
+  right: 0;
+  max-width: 197px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  color: var(--text-color-white);
+  border-radius: 20px;
+  padding: 20px;
+}
+.img__desc h3 {
+  font-size: var(--font-h3);
+  font-weight: 600;
+}
+.img__desc p {
+  font-size: var(--font-smaller);
+  line-height: 1.6;
 }

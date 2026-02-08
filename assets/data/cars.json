@@ -1,0 +1,56 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Porsche",
+      "model": "Turbo S",
+      "image": "assets/images/cars/Turbo_S.png",
+      "price": 230000,
+      "topSpeed": "330 Km/h",
+      "fuelType": "Petrol",
+      "zeroToHundred": 2.7
+    },
+    {
+      "id": 2,
+      "brand": "Porsche",
+      "model": "Taycan",
+      "image": "assets/images/cars/Taycan.png",
+      "price": 250000,
+      "topSpeed": "260 Km/h",
+      "fuelType": "Electric",
+      "zeroToHundred": 3.1
+    },
+    {
+      "id": 3,
+      "brand": "Porsche",
+      "model": "Turbo S Cross",
+      "image": "assets/images/cars/Turbo_S_Cross.png",
+      "price": 240000,
+      "topSpeed": "320 Km/h",
+      "fuelType": "Petrol",
+      "zeroToHundred": 3.3
+    },
+    {
+      "id": 4,
+      "brand": "Porsche",
+      "model": "Boxster 718",
+      "image": "assets/images/cars/Boxster_718.png",
+      "year": 2022,
+      "price": 150000,
+      "topSpeed": "285 Km/h",
+      "fuelType": "Petrol",
+      "zeroToHundred": 3.7
+    },
+    {
+      "id": 5,
+      "brand": "Porsche",
+      "model": "Cayman",
+      "image": "assets/images/cars/Cayman.png",
+      "year": 2022,
+      "price": 150000,
+      "topSpeed": "275 Km/h",
+      "fuelType": "Petrol",
+      "zeroToHundred": 4.9
+    }
+  ]
+}
