@@ -1,0 +1,45 @@
+.featured {
+  background-color: var(--container-color);
+  min-height: 80vh;
+}
+.featured.section {
+  padding-bottom: 72px;
+}
+.featured__filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 72px;
+}
+.featured__filter button {
+  background-color: var(--body-color);
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  color: var(--text-color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.featured__filter button img {
+  opacity: 0.3;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.featured__filter button.active img,
+.featured__filter button:hover img {
+  opacity: 1;
+}
+.featured__filter button:hover {
+  background-color: var(--first-color);
+}
+.featured__filter button.active {
+  background-color: var(--first-color);
+}
+.featured .container {
+  display: flex;
+  gap: 72px;
+  flex-wrap: wrap;
+}

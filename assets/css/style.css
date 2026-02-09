@@ -4,10 +4,16 @@
 @import url("../css/components/about.css");
 @import url("../css/components/popular.css");
 @import url("../css/components/carCard.css");
+@import url("../css/components/carCardAlt.css");
+@import url("../css/components/features.css");
+@import url("../css/components/featured.css");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;

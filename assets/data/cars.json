@@ -8,7 +8,9 @@
       "price": 230000,
       "topSpeed": "330 Km/h",
       "fuelType": "Petrol",
-      "zeroToHundred": 2.7
+      "zeroToHundred": 2.7,
+      "featured": false,
+      "imgDirection": "left"
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "price": 250000,
       "topSpeed": "260 Km/h",
       "fuelType": "Electric",
-      "zeroToHundred": 3.1
+      "zeroToHundred": 3.1,
+      "featured": false,
+      "imgDirection": "left"
     },
     {
       "id": 3,
@@ -28,7 +32,9 @@
       "price": 240000,
       "topSpeed": "320 Km/h",
       "fuelType": "Petrol",
-      "zeroToHundred": 3.3
+      "zeroToHundred": 3.3,
+      "featured": false,
+      "imgDirection": "left"
     },
     {
       "id": 4,
@@ -39,7 +45,9 @@
       "price": 150000,
       "topSpeed": "285 Km/h",
       "fuelType": "Petrol",
-      "zeroToHundred": 3.7
+      "zeroToHundred": 3.7,
+      "featured": false,
+      "imgDirection": "left"
     },
     {
       "id": 5,
@@ -50,7 +58,87 @@
       "price": 150000,
       "topSpeed": "275 Km/h",
       "fuelType": "Petrol",
-      "zeroToHundred": 4.9
+      "zeroToHundred": 4.9,
+      "featured": false,
+      "imgDirection": "left"
+    },
+    {
+      "id": 6,
+      "brand": "Porsche",
+      "model": "Panamera",
+      "image": "assets/images/cars/Panamera.png",
+      "year": 2023,
+      "price": 220000,
+      "topSpeed": "295 Km/h",
+      "fuelType": "Petrol",
+      "zeroToHundred": 3.8,
+      "featured": true,
+      "imgDirection": "right"
+    },
+    {
+      "id": 7,
+      "brand": "Tesla",
+      "model": "Model X",
+      "image": "assets/images/cars/Model_X.png",
+      "year": 2023,
+      "price": 250000,
+      "topSpeed": "250 Km/h",
+      "fuelType": "Electric",
+      "zeroToHundred": 3.1,
+      "featured": true,
+      "imgDirection": "right"
+    },
+    {
+      "id": 8,
+      "brand": "Tesla",
+      "model": "Model 3",
+      "image": "assets/images/cars/Model_3.png",
+      "year": 2023,
+      "price": 250000,
+      "topSpeed": "250 Km/h",
+      "fuelType": "Electric",
+      "zeroToHundred": 3.1,
+      "featured": true,
+      "imgDirection": "right"
+    },
+    {
+      "id": 9,
+      "brand": "Tesla",
+      "model": "Model 3",
+      "image": "assets/images/cars/Model_3.png",
+      "year": 2023,
+      "price": 180000,
+      "topSpeed": "225 Km/h",
+      "fuelType": "Electric",
+      "zeroToHundred": 4.2,
+      "featured": false,
+      "imgDirection": "right"
+    },
+    {
+      "id": 10,
+      "brand": "Audi",
+      "model": "E-tron",
+      "image": "assets/images/cars/E-tron.png",
+      "year": 2023,
+      "price": 200000,
+      "topSpeed": "210 Km/h",
+      "fuelType": "Electric",
+      "zeroToHundred": 5.5,
+      "featured": true,
+      "imgDirection": "right"
+    },
+    {
+      "id": 10,
+      "brand": "Porsche",
+      "model": "Boxster 987",
+      "image": "assets/images/cars/Boxster_987.png",
+      "year": 2021,
+      "price": 130000,
+      "topSpeed": "270 Km/h",
+      "fuelType": "Petrol",
+      "zeroToHundred": 5.1,
+      "featured": true,
+      "imgDirection": "right"
     }
   ]
 }

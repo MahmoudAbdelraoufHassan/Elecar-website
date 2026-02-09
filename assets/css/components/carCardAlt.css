@@ -1,0 +1,20 @@
+.car__card.car__card--alt {
+  height: 280px;
+}
+.car__card.car__card--alt .shape {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(70px);
+}
+.car__card.car__card--alt .card__image {
+  padding-left: 0;
+  padding-right: 56px;
+  margin-top: 32px;
+}
+.card__info,
+.card__image,
+.card__price {
+  position: relative;
+  z-index: 20;
+}
