@@ -7,6 +7,9 @@
 @import url("../css/components/carCardAlt.css");
 @import url("../css/components/features.css");
 @import url("../css/components/featured.css");
+@import url("../css/components/offer.css");
+@import url("../css/components/brands.css");
+@import url("../css/components/footer.css");
 * {
   padding: 0;
   margin: 0;
@@ -104,7 +107,14 @@ body {
   width: 400px;
   height: 400px;
 }
-
+button.btn {
+  background-color: var(--first-color);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 4px;
+  font-size: var(--font-h4);
+  font-weight: 500;
+}
 .glide__bullet {
   width: 10px;
   height: 10px;

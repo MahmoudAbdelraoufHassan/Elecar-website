@@ -23,12 +23,7 @@
   line-height: 1.6;
   max-width: 408px;
 }
-.about__content button {
-  background-color: var(--first-color);
-  color: white;
-  padding: 14px 32px;
-  border-radius: 4px;
-}
+
 .about__image {
   position: relative;
 }

@@ -1,0 +1,30 @@
+.offer {
+  background-image: url("../../images/subscribe-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offer.section {
+  padding-bottom: 57px;
+}
+.offer .container {
+  display: flex;
+  gap: 80px;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+.offer__text h2 {
+  font-size: var(--font-h2);
+  color: var(--text-color-white);
+  font-weight: 600;
+  max-width: 312px;
+  margin-bottom: 32px;
+}
+.offer__text p {
+  color: var(--text-color);
+  max-width: 375px;
+  margin-bottom: 48px;
+}
+.offer__text button {
+  padding: 14px 32px;
+}

@@ -2,6 +2,11 @@
   background-color: var(--container-color);
   min-height: 80vh;
 }
+.featured .container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .featured.section {
   padding-bottom: 72px;
 }
@@ -40,6 +45,6 @@
 }
 .featured .container {
   display: flex;
-  gap: 72px;
+  gap: 10px;
   flex-wrap: wrap;
 }

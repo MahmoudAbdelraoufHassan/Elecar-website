@@ -1,0 +1,22 @@
+.brands {
+  background-color: var(--container-color);
+}
+.brands.section {
+  padding-bottom: 64px;
+  padding-left: 97px;
+  padding-right: 97px;
+}
+.brands .container {
+  display: flex;
+  gap: 106px;
+  align-items: center;
+  justify-content: center;
+}
+.brands .container img {
+  opacity: 0.3;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.brands .container img:hover {
+  opacity: 1;
+}

@@ -46,11 +46,8 @@ function Filters(e) {
     e.target.classList.add("active");
 
     featuredCars.innerHTML = "";
-    if (e.target.dataset.filter === "All") {
-      getFeaturedCars();
-    } else {
-      getFeaturedCars(e.target.dataset.filter);
-    }
+
+    getFeaturedCars(e.target.dataset.filter);
   }
 }
 
@@ -225,4 +222,4 @@ function createCarCardAlt(car) {
 }
 
 getPopularCars();
-getFeaturedCars("All");
+getFeaturedCars();
