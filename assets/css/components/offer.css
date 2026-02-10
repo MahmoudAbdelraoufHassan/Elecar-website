@@ -3,6 +3,7 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
+  overflow: hidden;
 }
 .offer.section {
   padding-bottom: 57px;
@@ -27,4 +28,17 @@
 }
 .offer__text button {
   padding: 14px 32px;
+}
+.offer__image {
+  position: relative;
+  height: 202px;
+}
+@media screen and (max-width: 992px) {
+  .offer .container {
+    flex-direction: column;
+  }
+  .offer__image img {
+    position: absolute;
+    right: -140px;
+  }
 }

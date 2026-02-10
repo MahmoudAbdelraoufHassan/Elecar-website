@@ -18,3 +18,8 @@
   position: relative;
   z-index: 20;
 }
+@media screen and (max-width: 740px) {
+  .car__card.car__card--alt {
+    width: 100%;
+  }
+}

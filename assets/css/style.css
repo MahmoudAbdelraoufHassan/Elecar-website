@@ -57,7 +57,7 @@ button {
   /* transition */
   --transition: 0.3s;
 }
-@media screen and(max-width:1024px) {
+@media screen and (max-width: 1024px) {
   :root {
     --font-h1: 1.5rem; /* 24px */
     --font-h2: 1.25rem; /* 20px */
@@ -67,6 +67,17 @@ button {
     --font-smaller: 0.75rem; /* 12px */
   }
 }
+@media screen and (max-width: 1024px) {
+  :root {
+    --font-h1: 1.5rem; /* 24px */
+    --font-h2: 1.25rem; /* 20px */
+    --font-h3: 1rem; /* 16px */
+    --font-h4: 0.938rem; /* 15px */
+    --font-small: 0.813rem; /* 13px */
+    --font-smaller: 0.75rem; /* 12px */
+  }
+}
+
 body {
   background-color: var(--container-color);
   font-family: "Exo", sans-serif;
@@ -86,10 +97,11 @@ body {
 }
 .section__title h2 {
   text-align: center;
-  color: var(--text-color-white);
+  color: var(--title-color);
   line-height: 1.6;
   max-width: 278px;
   font-size: var(--font-h2);
+  font-weight: 600;
 }
 .shape {
   border-radius: 50%;
@@ -137,4 +149,12 @@ button.btn {
   display: flex;
   justify-content: center;
   margin-top: 49px;
+}
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

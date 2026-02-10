@@ -1,9 +1,14 @@
 .features {
   position: relative;
+  overflow: hidden;
 }
 
 .features.section {
   padding-bottom: 80px;
+}
+.features .container {
+  display: flex;
+  justify-content: center;
 }
 .features__map {
   position: absolute;
@@ -14,9 +19,15 @@
 }
 
 .features__image {
-  display: flex;
-  justify-content: center;
   position: relative;
+  width: fit-content;
+}
+.features__data {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 .features__data div {
   position: absolute;
@@ -33,16 +44,16 @@
   align-items: center;
 }
 .features__data div:nth-child(1) {
-  left: 400px;
-  top: 61px;
+  left: -40px;
+  top: 50px;
 }
 .features__data div:nth-child(2) {
-  left: 620px;
-  top: 130px;
+  right: -72px;
+  top: 110px;
 }
 .features__data div:nth-child(3) {
-  left: 400px;
-  top: 260px;
+  left: -40px;
+  top: 250px;
 }
 .features__data div h3 {
   font-weight: 600;

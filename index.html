@@ -6,6 +6,7 @@
     <title>Elecar</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- glide  -->
+    <link rel="icon" href="./assets/images/Elecar.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css"
@@ -26,22 +27,28 @@
         <nav class="header__nav">
           <ul class="nav__menu">
             <li>
-              <a href="#Home">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Popular</a>
+              <a href="#popular">Popular</a>
             </li>
             <li>
-              <a href="#">Featured</a>
+              <a href="#featured">Featured</a>
             </li>
           </ul>
+          <div class="header__menu-close">
+            <i class="bx bx-x"></i>
+          </div>
         </nav>
+        <div class="header__menu-open">
+          <i class="bx bx-menu"></i>
+        </div>
       </div>
     </header>
-    <main class="main" id="Home">
+    <main class="main" id="home">
       <div class="shape big"></div>
       <div class="shape small"></div>
       <div class="container">
@@ -79,7 +86,7 @@
         <button class="main__button">START</button>
       </div>
     </main>
-    <section class="about section">
+    <section class="about section" id="about">
       <div class="container">
         <div class="about__image">
           <img src="assets/images/about.png" alt="about" />
@@ -99,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section class="popular section">
+    <section class="popular section" id="popular">
       <div class="section__title">
         <h2>Choose Your Electric Car Of The Porsche Brand</h2>
       </div>
@@ -147,7 +154,7 @@
         </div>
       </div>
     </section>
-    <section class="featured section">
+    <section class="featured section" id="featured">
       <div class="section__title">
         <h2>Featured Luxury Cars</h2>
       </div>

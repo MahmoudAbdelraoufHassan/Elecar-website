@@ -1,3 +1,18 @@
+function Navbar() {
+  const menuBtn = document.querySelector(".header__menu-open");
+  const closeBtn = document.querySelector(".header__menu-close");
+  const headerNav = document.querySelector(".header__nav");
+  function openNavMenu() {
+    headerNav.classList.add("active");
+  }
+  function closeNavMenu() {
+    headerNav.classList.remove("active");
+  }
+
+  menuBtn.addEventListener("click", openNavMenu);
+  closeBtn.addEventListener("click", closeNavMenu);
+}
+Navbar();
 // fetch cars data
 const featuredCars = document.querySelector(".featured .container");
 
@@ -22,7 +37,10 @@ async function getPopularCars() {
       gap: 10,
       breakpoints: {
         1024: { perView: 2 },
-        768: { perView: 1.2 },
+        768: { perView: 1.5 },
+        480: { perView: 1.3 },
+        420: { perView: 1.1 },
+        380: { perView: 1 },
       },
     }).mount();
   } catch (err) {

@@ -5,6 +5,9 @@
 .featured .container {
   padding-left: 70px;
   padding-right: 70px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .featured.section {
@@ -43,8 +46,14 @@
 .featured__filter button.active {
   background-color: var(--first-color);
 }
-.featured .container {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+
+@media screen and (max-width: 768px) {
+  .featured__filter {
+    gap: 16px;
+  }
+  .featured .container {
+    gap: 32px;
+    padding-left: 42px;
+    padding-right: 42px;
+  }
 }

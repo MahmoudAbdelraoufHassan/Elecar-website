@@ -1,5 +1,6 @@
 .popular {
   background-color: var(--container-color);
+  overflow: hidden;
 }
 .popular.section {
   padding-bottom: 48px;
@@ -7,4 +8,11 @@
 .popular .container {
   padding-left: 70px;
   padding-right: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  .popular .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

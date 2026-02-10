@@ -53,3 +53,9 @@
   font-size: var(--font-smaller);
   line-height: 1.6;
 }
+
+@media screen and (max-width: 1024px) {
+  .about .container {
+    flex-direction: column;
+  }
+}
