@@ -241,3 +241,123 @@ function createCarCardAlt(car) {
 
 getPopularCars();
 getFeaturedCars();
+
+// ScrollReveal animations
+const scrollRevealOptions = {
+  distance: "50px",
+  origin: "bottom",
+  duration: 1000,
+  delay: 0,
+  easing: "cubic-bezier(0.5, 0, 0.5, 1)",
+};
+
+const sr = ScrollReveal();
+
+// Main section
+sr.reveal(".main__text", {
+  ...scrollRevealOptions,
+  origin: "top",
+  delay: 0,
+});
+
+sr.reveal(".main__img", {
+  ...scrollRevealOptions,
+  origin: "top",
+  delay: 300,
+});
+
+sr.reveal(".main__data", {
+  ...scrollRevealOptions,
+  origin: "top",
+  delay: 600,
+});
+
+sr.reveal(".main__button", {
+  ...scrollRevealOptions,
+  origin: "top",
+  delay: 900,
+});
+
+// About section
+sr.reveal(".about__image", {
+  ...scrollRevealOptions,
+  origin: "left",
+  delay: 0,
+});
+
+sr.reveal(".about__content", {
+  ...scrollRevealOptions,
+  origin: "right",
+  delay: 400,
+});
+
+// Features section
+sr.reveal(".features__map", {
+  ...scrollRevealOptions,
+  delay: 0,
+});
+
+sr.reveal(".features__image", {
+  ...scrollRevealOptions,
+  delay: 400,
+});
+
+sr.reveal(".features__data", {
+  ...scrollRevealOptions,
+  delay: 800,
+});
+
+// Popular section
+sr.reveal(".popular .section__title", {
+  ...scrollRevealOptions,
+  delay: 0,
+});
+
+sr.reveal(".glide", {
+  ...scrollRevealOptions,
+  delay: 400,
+});
+
+// Featured section
+sr.reveal(".featured .section__title", {
+  ...scrollRevealOptions,
+  delay: 0,
+});
+
+sr.reveal(".featured__filter", {
+  ...scrollRevealOptions,
+  delay: 400,
+});
+
+sr.reveal(".car__card", {
+  ...scrollRevealOptions,
+  delay: 600,
+  interval: 150,
+});
+
+// Offer section
+sr.reveal(".offer__text", {
+  ...scrollRevealOptions,
+  origin: "left",
+  delay: 0,
+});
+
+sr.reveal(".offer__image", {
+  ...scrollRevealOptions,
+  origin: "right",
+  delay: 400,
+});
+
+// Brands section
+sr.reveal(".brands img", {
+  ...scrollRevealOptions,
+  delay: 0,
+  interval: 100,
+});
+
+// Footer
+sr.reveal(".footer__content", {
+  ...scrollRevealOptions,
+  delay: 0,
+  interval: 100,
+});

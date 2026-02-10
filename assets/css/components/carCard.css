@@ -14,10 +14,15 @@
   height: 190px;
   filter: blur(100px);
 }
+
 .card__info,
 .card__image {
   position: relative;
   z-index: 20;
+  transition: var(--transition);
+}
+.car__card:hover .card__image {
+  transform: translateY(-5px);
 }
 .car__card .card__info h2 {
   font-size: var(--font-h2);
