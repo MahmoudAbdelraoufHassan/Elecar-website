@@ -9,8 +9,15 @@ function Navbar() {
     headerNav.classList.remove("active");
   }
 
+  function closeOnNavigate(e) {
+    if (e.target.localName === "a") {
+      closeNavMenu();
+    }
+  }
+
   menuBtn.addEventListener("click", openNavMenu);
   closeBtn.addEventListener("click", closeNavMenu);
+  headerNav.addEventListener("click", closeOnNavigate);
 }
 Navbar();
 // fetch cars data
