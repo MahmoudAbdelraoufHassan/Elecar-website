@@ -100,3 +100,11 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 520px) {
+  .main__data {
+    gap: 30px;
+  }
+  .main__img img {
+    width: 100%;
+  }
+}
