@@ -94,4 +94,7 @@
   .main__data {
     gap: 60px;
   }
+  .main__img img {
+    width: 100%;
+  }
 }
