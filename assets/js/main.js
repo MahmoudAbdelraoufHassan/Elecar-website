@@ -131,6 +131,7 @@ function createCarCard(car) {
   const zeroToHundred = document.createElement("div");
   const zImg = document.createElement("img");
   zImg.src = "assets/images/dashboard.svg";
+  zImg.alt = "dashboard";
   const zSpan = document.createElement("span");
   zSpan.textContent = `${car.zeroToHundred}s`;
   zeroToHundred.appendChild(zImg);
@@ -139,6 +140,7 @@ function createCarCard(car) {
   const topSpeed = document.createElement("div");
   const tImg = document.createElement("img");
   tImg.src = "assets/images/funds-box-line.svg";
+  tImg.alt = "funds-box-line";
   const tSpan = document.createElement("span");
   tSpan.textContent = car.topSpeed;
   topSpeed.appendChild(tImg);
@@ -147,6 +149,7 @@ function createCarCard(car) {
   const range = document.createElement("div");
   const rImg = document.createElement("img");
   rImg.src = "assets/images/charging-pile.svg";
+  rImg.alt = "charging-pile";
   const rSpan = document.createElement("span");
   rSpan.textContent = car.fuelType;
   range.appendChild(rImg);
